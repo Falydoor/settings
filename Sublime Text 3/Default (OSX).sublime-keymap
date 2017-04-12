@@ -1,0 +1,29 @@
+[
+    {
+        "args": {
+            "file": "res://Packages/Default/Delete Line.sublime-macro"
+        },
+        "command": "run_macro_file",
+        "keys": [
+            "super+backspace"
+        ]
+    },
+    {
+        "args": {
+            "to": "hardbol"
+        },
+        "command": "move_to",
+        "keys": [
+            "home"
+        ]
+    },
+    {
+        "args": {
+            "to": "hardeol"
+        },
+        "command": "move_to",
+        "keys": [
+            "end"
+        ]
+    }
+]

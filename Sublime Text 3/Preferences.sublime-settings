@@ -1,0 +1,8 @@
+{
+    "color_scheme": "Packages/Predawn/predawn-gf-markdown.tmTheme",
+    "predawn_findreplace_small": true,
+    "predawn_quick_panel_small": true,
+    "predawn_tabs_small": true,
+    "theme": "predawn-DEV.sublime-theme",
+    "translate_tabs_to_spaces": false
+}
