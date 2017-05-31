@@ -14,7 +14,7 @@ alias ydl="youtube-dl -x --restrict-filenames --audio-format mp3 -o '%(title)s.%
 
 # DEV
 export JAVA_HOME=$(/usr/libexec/java_home -v 1.8)
-PATH="$PATH:~/Library/Android/sdk/platform-tools:$HOME/.config/yarn/global/node_modules/.bin"
+PATH="$PATH:~/Library/Android/sdk/platform-tools:$HOME/.config/yarn/global/node_modules/.bin:/usr/local/opt/node@6/bin"
 
 # Docker
 function rmContainers() {
