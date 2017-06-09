@@ -1,0 +1,19 @@
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[user]
+	name = Theo LEBRUN
+	email = tlebrun@ipponusa.com
+[push]
+	default = simple
+[alias]
+	co = checkout
+	st = status
+	ci = commit
+	br = branch
+[pull]
+	rebase = true
+[core]
+	hooksPath = /Users/Theo/dotfiles/_git/hooks/
