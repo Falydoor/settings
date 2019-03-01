@@ -86,3 +86,10 @@ source $ZSH/oh-my-zsh.sh
 
 # Load bash profile 
 [[ -e ~/.bashrc ]] && emulate sh -c 'source ~/.bashrc'
+
+# tabtab source for jhipster package
+# uninstall by removing these lines or running `tabtab uninstall jhipster`
+#[[ -f /Users/theo/Documents/work/horizon/poc-preferences/node_modules/tabtab/.completions/jhipster.zsh ]] && . /Users/theo/Documents/work/horizon/poc-preferences/node_modules/tabtab/.completions/jhipster.zsh
+
+# Disable auto cd
+# unsetopt AUTO_CD

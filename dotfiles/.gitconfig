@@ -5,7 +5,7 @@
 	required = true
 [user]
 	name = Theo LEBRUN
-	email = tlebrun@ipponusa.com
+	email = mib.ftw@gmail.com
 [push]
 	default = simple
 [alias]
@@ -15,5 +15,9 @@
 	br = branch
 [pull]
 	rebase = true
+[gpg]
+	program = gpg
+[commit]
+	gpgSign = true
 [core]
-	hooksPath = /Users/Theo/dotfiles/_git/hooks/
+	hooksPath = /Users/theo/Documents/perso/settings/dotfiles/hooks
