@@ -51,7 +51,7 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git docker docker-compose sublime colored-man-pages mvn)
+plugins=(git docker colored-man-pages vscode kubectl)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -93,3 +93,9 @@ source $ZSH/oh-my-zsh.sh
 
 # Disable auto cd
 # unsetopt AUTO_CD
+
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="/Users/theo/.sdkman"
+[[ -s "/Users/theo/.sdkman/bin/sdkman-init.sh" ]] && source "/Users/theo/.sdkman/bin/sdkman-init.sh"
