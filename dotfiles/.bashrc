@@ -22,7 +22,7 @@ function kbash() {
 # Utils
 alias ydl="youtube-dl -x --restrict-filenames --audio-format mp3 -o '%(title)s.%(ext)s'"
 alias gpg2="gpg"
-alias pull-upstream="git fetch upstream master && git rebase upstream/master"
+alias pull-upstream="git co master && git fetch upstream master && git rebase upstream/master"
 alias k="kubectl"
 alias perso="cd ~/Documents/perso"
 alias work="cd ~/Documents/work"
