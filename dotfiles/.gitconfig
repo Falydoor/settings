@@ -8,6 +8,7 @@
 	email = mib.ftw@gmail.com
 [push]
 	default = simple
+	autoSetupRemote = true
 [alias]
 	co = checkout
 	st = status
