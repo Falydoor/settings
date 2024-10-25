@@ -22,3 +22,7 @@
 	gpgsign = true
 [core]
 	hooksPath = /Users/theo/Documents/perso/settings/dotfiles/hooks
+[init]
+	defaultBranch = main
+[credential]
+	helper = osxkeychain
